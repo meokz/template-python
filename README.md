@@ -4,13 +4,21 @@ Basic template for python project.
 
 ## Features
 
-* Multi-platform and portable executing environment for python with Docker and docker-compose.
+* Multi-platform and portable both development and execution environment for python with container technology.
 
-* Coding support with VSCode including static type analysis.
+* Coding support with VSCode including static type analysis and auto-formatting.
 
-* Standard settings for gitignore and editorconfig.
+* Standard settings for git and text-editor.
 
 ## Usage
+
+1. Open VScode
+
+2. Select  "Remote-Containers Open Folder in Container"
+
+3. enjoy!
+
+### Additional option without a remote container
 
 Build
 ```sh

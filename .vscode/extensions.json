@@ -1,7 +1,5 @@
 {
     "recommendations": [
-        "ms-python.python",
-        "ms-pyright.pyright",
-        "editorconfig.editorconfig",
+        "ms-vscode-remote.remote-containers"
     ]
 }
