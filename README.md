@@ -6,9 +6,17 @@ Basic template for python project.
 
 * Multi-platform and portable both development and execution environment for python with container technology.
 
-* Coding support with VSCode including static type analysis and auto-formatting.
+* Coding support with VS Code including static type analysis and auto-formatting.
 
 * Standard settings for git and text-editor.
+
+## Requirements 
+
+* VS Code
+
+* Docker
+
+* docker-compose 
 
 ## Usage
 
