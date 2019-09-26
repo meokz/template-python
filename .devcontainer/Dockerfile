@@ -7,6 +7,8 @@ RUN apt-get update \
     git \
     procps \
     lsb-release \
+    gcc \
+    build-essential \
     && pip install --no-cache-dir \
     autopep8 \
     flake8 \
