@@ -12,6 +12,8 @@ RUN apt-get update \
     && pip install --no-cache-dir \
     autopep8 \
     flake8 \
+    jupyter \
+    pytest \
     && apt-get autoremove -y \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/*

@@ -22,6 +22,7 @@
     "extensions": [
         "ms-python.python",
         "ms-pyright.pyright",
-        "editorconfig.editorconfig"
+        "editorconfig.editorconfig",
+        "ms-azuretools.vscode-docker"
     ]
 }
