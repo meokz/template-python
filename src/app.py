@@ -1,6 +1,3 @@
-import argparse
-
-
 def main(args):
     """ main function """
     print("Hello Python!")
@@ -8,7 +5,7 @@ def main(args):
 
 if __name__ == "__main__":
     """ main endpoint """
-
+    import argparse
     parser = argparse.ArgumentParser(
         description='description'
     )
