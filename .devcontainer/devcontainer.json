@@ -1,7 +1,13 @@
 {
-    "name": "Python",
+    "name": "Project Name",
     "dockerFile": "Dockerfile",
+    "runArgs": [
+        // Sync git config
+        "-v",
+        "${env:HOME}${env:USERPROFILE}/.gitconfig:/root/.gitconfig",
+    ],
     "settings": {
+        "editor.formatOnSave": true,
         "terminal.integrated.shell.linux": "/bin/bash",
         "python.pythonPath": "/usr/local/bin/python",
         "python.linting.pylintEnabled": false,
