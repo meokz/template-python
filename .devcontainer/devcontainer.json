@@ -26,8 +26,7 @@
     },
     "postCreateCommand": "pip install -r requirements.txt",
     "extensions": [
-        "ms-python.python",
-        "ms-pyright.pyright",
+        "ms-python.vscode-pylance",
         "editorconfig.editorconfig",
         "ms-azuretools.vscode-docker"
     ]
