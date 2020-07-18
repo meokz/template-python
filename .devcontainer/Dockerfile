@@ -1,7 +1,7 @@
 FROM python:3.7.7-slim
 
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends \
+    && apt-get install -y --no-install-recommends --allow-unauthenticated \
     apt-utils \
     dialog \
     git \
