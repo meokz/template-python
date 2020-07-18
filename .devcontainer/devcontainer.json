@@ -20,11 +20,8 @@
             "--max-line-length",
             "160"
         ],
-        "[python]": {
-            "editor.formatOnSave": true
-        }
     },
-    "postCreateCommand": "pip install -r requirements.txt",
+    "postCreateCommand": "poetry install --no-root",
     "extensions": [
         "ms-python.vscode-pylance",
         "editorconfig.editorconfig",

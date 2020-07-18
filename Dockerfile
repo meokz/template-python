@@ -6,9 +6,11 @@ COPY requirements.txt requirements.txt
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
+    curl \
     build-essential
 
-RUN pip install --upgrade pip setuptools \
-    && pip install --no-cache-dir -r requirements.txt
+RUN curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python \
+    && poetry config virtualenvs.create false \
+    && poetry install --no-root --no-dev
 
 WORKDIR /home
