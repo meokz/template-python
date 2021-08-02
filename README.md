@@ -26,6 +26,12 @@ Basic template for python project.
 
 3. enjoy!
 
+### Open in Jupyter
+
+```
+$ jupyter notebook --port 8000 --ip=0.0.0.0 --allow-root
+```
+
 ### Additional option without a remote container
 
 Build

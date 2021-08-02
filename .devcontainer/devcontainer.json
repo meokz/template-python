@@ -5,6 +5,9 @@
         // Sync git config
         "-v",
         "${env:HOME}${env:USERPROFILE}/.gitconfig:/root/.gitconfig",
+        // Open port
+        "-p",
+        "8888:8888"
     ],
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash",
